@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    text-align: center;
+}
+header p{
+    color: green
+    ;
+}
+.highlight{
+    background-color: yellow;
+}
+footer.highlight{
+    background-color: lightgray;
+}

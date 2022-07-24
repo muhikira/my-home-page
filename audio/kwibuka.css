@@ -1,0 +1,52 @@
+html    {
+    background-color: #998560;
+}
+body {
+    font-family: tahoma;
+
+}
+.container{
+    width: 560px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color:#FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+
+    }
+    .containe-area {
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+
+    }
+    .main-area{
+        width: 66%;
+        float: left;
+        padding-right:40px;
+        box-sizing: border-box;
+    }
+    .sidebar{
+        width: 34%;
+        float: left
+        ;
+    }
+
+h1{
+    color:orange;
+    text-align: center;
+}
+header p{
+    color: green
+    ;
+}
+.highlight{
+    background-color: yellow;
+}
+footer.highlight{
+    background-color: lightgray;
+}
+image{
+    height: 100px;
+    width: 80px;
+}

@@ -1,0 +1,241 @@
+img.heading {
+	height: 450;
+	width: 350;
+	border-radius: 12px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+}
+
+img {
+	max-width: 120%;
+	height: 350px;
+
+}
+.nice{
+	width: 350px;
+
+}
+img.gallery{
+	width: 100%;
+	height: 350px;
+}
+/* img.mortgage{
+	width: 100%;
+	height: 350px;
+	max-width: 100%;
+	height: 350px;
+} */
+
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #869960;
+	line-height: 1.7;
+}
+
+/* h1{
+    color:#181213a9;
+    text-align: center;
+} */
+header p {
+	color: black;
+}
+
+.highlight {
+	background-color: yellow;
+}
+
+footer.highlight {
+	background-color: rgb(136, 51, 77);
+}
+
+footer {
+	text-align: center;
+	font-size: 85%;
+	color: rgb(69, 33, 153);
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.container {
+	max-width: 82%;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	/*background-image: url(../images/imigongo.jpg);*/
+}
+
+/* Site Navigation */
+.site-nav {
+	margin-top: 20px;
+}
+
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+.site-nav a {
+	display: block;
+	color: #FFF;
+	padding: 10px 20px;
+	background-color: #536036;
+}
+
+.site-nav a:hover {
+	background-color: #4e5a33;
+}
+
+@media screen and (max-width: 700px) {
+
+	.site-nav li {
+		width: 33.332%;
+		margin-right: 0;
+	}
+
+	.site-nav a {
+		padding: 15px 0;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.site-nav li {
+		width: 50%;
+	}
+
+}
+
+.content-area {
+	background-color: #e5e9dc;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+	.content-area {
+		padding-top: 20px;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+
+	.main-area,
+	.sidebar {
+		width: auto;
+		float: none;
+	}
+
+	.main-area {
+		padding-right: 0;
+	}
+
+}
+
+.main-area {
+	width: 90%;
+	float: left;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+video {
+	border: 5px;
+	padding: 30px;
+	width: 400px;
+	height: 320px;
+}
+
+
+/* End Site Navigation */
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+
+
+.info-box {
+	background-color: #efeedb;
+	border: 2px solid #e6e5c2;
+	/* padding: 20px 40px 7px 40px; */
+	padding: 4px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	margin-left: 10px;
+	float: left;
+}
+
+@media screen and (max-width: 480px) {
+
+	.hide-small {
+		display: none;
+	}
+
+}
+
+#delay {
+	font-size: 14px;
+	transition-property: font-size;
+	transition-duration: 4s;
+	transition-delay: 2s;
+
+}
+
+#delay:hover {
+	font-size: 36px;
+	background-color: burlywood;
+}
+
+div.gallery {
+
+	float: left;
+	padding: 1px;
+	margin: 3px;
+	width: 24.4%;
+	transition-duration: 4s;
+	transition-delay: 1s;
+	box-sizing: border-box;
+
+}
+div.gallery:hover{
+	transform: scale(1.5) rotate(360deg);
+
+}
+section::after{
+	display: flex;
+	clear: both;
+	width: max-content;
+}
